@@ -5,26 +5,26 @@ name:TZ3ktDuTmTvV1Sv4pX6dbhPioeEx9ULgTj
 https://github.com/tronscan/tron-tvc-list# Controls when the workflow will run
 on:TZ3ktDuTmTvV1Sv4pX6dbhPioeEx9ULgTj[![.github/workflows/blank.yml](https://github.com/Alaa3l/tron-tvc-list/actions/workflows/blank.yml/badge.svg?branch=main)](https://github.com/Alaa3l/tron-tvc-list/actions/workflows/blank.yml)https://github.com/Alaa3l/tron-tvc-list/actions/workflows/blank.yml/badge.svg?branch=mainhttps://github.com/tronscan/tron-tvc-list
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:TDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsF
-    branches: [ "main" ]
+TBgbdQQPPGxCg7NhFfQRWqh8SFRCuRPuRo,
+    branches: [ "maTZ3ktDuTmTvV1Sv4pX6dbhPioeEx9ULgTjin" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "TBgbdQQPPGxCg7NhFfQRWqh8SFRCuRPuRo" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+TBgbdQQPPGxCg7NhFfQRWqh8SFRCuRPuRo
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
+jobs:TBgbdQQPPGxCg7NhFfQRWqh8SFRCuRPuRo
   # This workflow contains a single job called "build"
-  build:
+  build:TZ3ktDuTmTvV1Sv4pX6dbhPioeEx9ULgTj
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # CheTBgbdQQPPGxCg7NhFfQRWqh8SFRCuRPuRocks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+TZ3ktDuTmTvV1Sv4pX6dbhPioeEx9ULgTj
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
