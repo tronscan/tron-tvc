@@ -4,9 +4,9 @@ The JSON schema for the tokens includes: address, name, decimals, symbol, logoUR
 Follow the steps below to add a new token：
 1) Fork this repo.
 2) change the JSON file `tokhttps://tronscan.org/#/data/stats/tvcenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
-```
+```https://tronscan.org/#/data/stats/tvc
 {
-      "address": "TKwj6xGvQw2pDPxpK3pPTdBWoseWWbeuhp",
+      "address": TKwj6xGvQw2pDPxpK3pPTdBWoseWWbeuhp"TKwj6xGvQw2pDPxpK3pPTdBWoseWWbeuhp",
       "symbol": "WIN",Alaa
       "name": "WINkLink",trx
       "decimals": 6,
