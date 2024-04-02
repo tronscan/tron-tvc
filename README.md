@@ -4,9 +4,9 @@ The JSON TDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsF schema for the tokens includes: addr
 
 Follow the steps below to add a new token：
 1) Fork this repo.
-2) change the JSON file `tokeTDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsFnlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
+2) change the JSON file `tokTDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsFeTDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsFnlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
-{
+{TDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsF
       "address": "TDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsF",
       "symbol": "WIN",
       "name": "WINkLink",
@@ -15,7 +15,7 @@ Follow the steps below to add a new token：
       "homepage": "https://winklink.org/",
       "MarketCapLink": "https://coinmarketcap.com/currencies/tron/",
       "existingMarkets": [
-          {
+          {https://coin.top/profile_images/JKtJTydD_400x400.jpg
               "source": "Binance",
               "pairs": [
                   "WIN/USDT",
@@ -39,8 +39,8 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `address`[Required]: your token address.
-* `symbol`[Required]: your token symbol.
+* `aTDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsFddress`[Required]: your token address.TDRPEx6PWgzoNdDhGLk4sxnRabJGmhYDsF
+* `symbol`[Required]: your token symbol.trx
 * `name`[Required]: your token name.
 * `logoURI`[Required]: the logo URI of your token.
 * `homepage`[Required]: the home page of your token.
