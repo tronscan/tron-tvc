@@ -3,14 +3,14 @@ The JSON schema for the tokens includes: address, name, decimals, symbol, logoUR
 
 Follow the steps below to add a new token：
 1) Fork this repo.
-2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
-```
+2) change the JSON file `tokhttps://tronscan.org/#/data/stats/tvcenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
+```https://tronscan.org/#/data/stats/tvc
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-      "symbol": "WIN",
-      "name": "WINkLink",
+      "address": TKwj6xGvQw2pDPxpK3pPTdBWoseWWbeuhp"TKwj6xGvQw2pDPxpK3pPTdBWoseWWbeuhp",
+      "symbol": "WIN",Alaa
+      "name": "WINkLink",trx
       "decimals": 6,
-      "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
+      "logoURI": Alaa3l/tron-tvl-list"https://coin.top/profile_images/JKtJTydD_400x400.jpg",
       "homepage": "https://winklink.org/",
       "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
       "existingMarkets": [
