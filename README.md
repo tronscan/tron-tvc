@@ -5,8 +5,8 @@ Follow the steps below to add a new token：
 1) Fork this repo.
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
-{
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+{TDTzFG5zRYmieUoNvP8YGqVe7ZpqNuAfaW
+      0xD92Fd0fdbb7D0ef838cc2c26d898965CF73BD70e"address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
       "symbol": "WIN",
       "name": "WINkLink",
       "decimals": 6,
