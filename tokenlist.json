@@ -1,4 +1,23 @@
 {
+      "address": "TVE6ZBZeJeXGFLfwSuLwY7JRhBXmiLaZbg",
+      "symbol": "FCO",
+      "name": "Fanatico",
+      "decimals": 6,
+      "logoURI": "https://fco.fanatico.com/img/logo.svg",
+      "homepage": "https://fco.fanatico.com",
+      "MarketCapLink": "https://fco.fanatico.com/api/info/stat/metrics/total-circulation",
+      "existingMarkets": [
+          {
+              "source": "Sun",
+              "pairs": [
+                  "FCO/USDT",
+                  "FCO/TRX",
+              ]
+          }
+    ]
+}
+
+{
     "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
     "symbol": "Huobi 2nd Space",
     "name": "Huobi 2nd Space Club",
