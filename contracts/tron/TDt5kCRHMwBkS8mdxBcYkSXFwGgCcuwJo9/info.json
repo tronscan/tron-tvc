@@ -1,0 +1,10 @@
+{
+  "name": "T E T H E R U S D",
+  "symbol": "U S D T",
+  "decimals": 18,
+  "description": "USDT is the official stablecoin issued by Tether on the TRON network.",
+  "website": "USDT.COM",
+  "explorer": "https://tronscan.org/#/contract/TDt5kCRHMwBkS8mdxBcYkSXFwGgCcuwJo9",
+  "status": "active",
+  "id": "TDt5kCRHMwBkS8mdxBcYkSXFwGgCcuwJo9"
+}
