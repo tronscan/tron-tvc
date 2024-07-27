@@ -12,7 +12,7 @@ Follow the steps below to add a new token：
       "decimals": 6,
       "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
       "homepage": "https://winklink.org/",
-      "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
+            "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
       "existingMarkets": [
           {
               "source": "Binance",
