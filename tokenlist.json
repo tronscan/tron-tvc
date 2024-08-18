@@ -1,13 +1,16 @@
 {
-    "address": "TXtu3Ke9mJQtPtAQxmoTbzu3N4Qx4XP9Y2",
-    "symbol": "BLAKE",
-    "name": "BLAKE",
-    "decimals": 6,
-    "logoURI": "https://i.postimg.cc/mgVH0JRK/poisajkdioa-1.png",
-    "homepage": "https://www.blaketrx.xyz",
-    "existingMarkets": [
-        {
-            
-        }
-  ]
+      "address": "TXtu3Ke9mJQtPtAQxmoTbzu3N4Qx4XP9Y2",
+      "symbol": "BLAKE",
+      "name": "BLAKE",
+      "decimals": 6,
+      "logoURI": "https://i.postimg.cc/mgVH0JRK/poisajkdioa-1.png",
+      "homepage": "https://blaketrx.xyz",
+      "existingMarkets": [
+          {
+              "source": "SunSwap",
+              "pairs": [
+                  "BLAKE/TRX"
+              ]
+          }
+    ]
 }
