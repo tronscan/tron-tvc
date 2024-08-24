@@ -16,4 +16,35 @@
         }
   ]
 }
-
+{
+      "address": "TDhp3Uc6LoLJ8eDWapRE8NXR5CaeSoxubw",
+      "symbol": "USDTc",
+      "name": "Classic USDT",
+      "decimals": 6,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+      "homepage": "https://tether.to/",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/tether/",
+      "existingMarkets": [
+          {
+              "source": "Binance",
+              "pairs": [
+                  "BTC/USDT",
+                  "USDC/USDT",
+                  "ETH/USDT",
+                  "SOL/USDT"
+              ]
+          },
+          {
+              "source": "Poloniex",
+              "pairs": [
+                  "BTC/USDT"
+              ]
+          },
+          {
+              "source": "KuCoin",
+              "pairs": [
+                  "BTC/USDT"
+              ]
+          }
+    ]
+}
