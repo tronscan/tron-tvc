@@ -1,16 +1,16 @@
 {
-    "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
-    "symbol": "Huobi 2nd Space",
-    "name": "Huobi 2nd Space Club",
-    "decimals": 6,
-    "logoURI": "https://hbg-prod-fed-public.hbfile.net/nuwa/static/prod/56020150-434a-46af-9eaa-fe1ed404c12b.gif",
-    "homepage": "https://www.huobi.com/",
+    "address": "TAbkLGngV1k8bNb5hnqW7oX46FG4Dbs5e2",
+    "symbol": "Pino",
+    "name": "Pino The Dino",
+    "decimals": 18,
+    "logoURI": "https://media.discordapp.net/attachments/1248534364074151970/1279906983608062117/IMG_5208.PNG?ex=66d625c4&is=66d4d444&hm=20193742b26e425f101d735f6454544315fa50d13864847ed1163fbd85649c28&=&format=webp&quality=lossless&width=1064&height=1064",
+    "homepage": "https://pino-trx.com/",
     "existingMarkets": [
         {
-            "source": "ApeNFT",
+            "source": "Sun.io",
             "pairs": [
-                "Huobi 2nd Space/USDT",
-                "Huobi 2nd Space/TRX"
+                "Pino/USDT",
+                "Pino/TRX"
             ]
         }
   ]
