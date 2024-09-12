@@ -1,17 +1,8 @@
 {
-    "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
-    "symbol": "Huobi 2nd Space",
-    "name": "Huobi 2nd Space Club",
+    "address": "TKxsVK2hB1x8Q4csSbxWtqx1LNncqNTNwY",
+    "symbol": "SIM",
+    "name": "SIMCOIN",
     "decimals": 6,
-    "logoURI": "https://hbg-prod-fed-public.hbfile.net/nuwa/static/prod/56020150-434a-46af-9eaa-fe1ed404c12b.gif",
-    "homepage": "https://www.huobi.com/",
-    "existingMarkets": [
-        {
-            "source": "ApeNFT",
-            "pairs": [
-                "Huobi 2nd Space/USDT",
-                "Huobi 2nd Space/TRX"
-            ]
-        }
-  ]
+    "logoURI": "https://developer.trustwallet.com/~gitbook/image?url=https%3A%2F%2F2889587170-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LeGDgApX5LA1FGVGo-z%252Ficon%252FpYYXKlOGhRo1zDk5LwLt%252Fimage%2520%285%29.png%3Falt%3Dmedia%26token%3Db088d715-3766-46ba-b1de-ee6cb5401403&width=32&dpr=1&quality=100&sign=30076c05&sv=1",
+    "homepage": "https://www.test.org/"
 }
