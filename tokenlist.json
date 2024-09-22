@@ -14,4 +14,21 @@
             ]
         }
   ]
+},
+{
+      "address": "TYiqKwENAh8A139sQ7iRLgxQ7rgXNJ8a6u",
+      "symbol": "USDŦ",
+      "name": "USDollarToken",
+      "decimals": 6,
+      "logoURI": "https://usdollartoken.site/wp-content/uploads/2024/09/TYiqKwENAh8A139sQ7iRLgxQ7rgXNJ8a6u.png",
+      "homepage": "https://usdollartoken.site",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/USDŦ/",
+      "existingMarkets": 
+          {
+              "source": "sunswap",
+              "pairs": [
+                  "USDŦ/USDT"
+              ]
+          }
+    ]
 }
