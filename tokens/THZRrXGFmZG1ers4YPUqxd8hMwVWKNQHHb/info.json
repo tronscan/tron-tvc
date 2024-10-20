@@ -1,0 +1,9 @@
+{
+  "name": "USDT",
+  "symbol": "USDT",
+  "type": "TRC20",
+  "decimals": 18,
+  "description": "USDT is a stablecoin pegged to the US Dollar.",
+  "email": "zeewihl@gmail.com",
+  "explorer": "https://tronscan.org/#/token20/THZRrXGFmZG1ers4YPUqxd8hMwVWKNQHHb"
+}
