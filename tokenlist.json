@@ -1,17 +1,24 @@
 {
-    "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
-    "symbol": "Huobi 2nd Space",
-    "name": "Huobi 2nd Space Club",
-    "decimals": 6,
-    "logoURI": "https://hbg-prod-fed-public.hbfile.net/nuwa/static/prod/56020150-434a-46af-9eaa-fe1ed404c12b.gif",
-    "homepage": "https://www.huobi.com/",
+    "address": "TPBEsjyW8gZ72wpkyBF7gQNszKpGnSQT8e",
+    "symbol": "DGTRON",
+    "name": "DRAGON on TRON",
+    "decimals": 18,
+    "logoURI": "https://thedragontron.meme/wp-content/uploads/2024/10/DGTronLogo_Main-1.png",
+    "homepage": "https://thedragontron.meme/",
     "existingMarkets": [
         {
-            "source": "ApeNFT",
+            "source": "SunSwap",
             "pairs": [
-                "Huobi 2nd Space/USDT",
-                "Huobi 2nd Space/TRX"
+                "DGTRON/WTRX",
+                "DGTRON/USDT"
             ]
-        }
+        },
+        {
+             "source": "Just.Money",
+             "pairs": [
+                 "DGTRON/WTRX",
+                 "DGTRON/USDT"
+            ]
+        },
   ]
 }
