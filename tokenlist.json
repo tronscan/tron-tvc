@@ -3,18 +3,20 @@
     "symbol": "DGTRON",
     "name": "DRAGON on TRON",
     "decimals": 18,
-    "logoURI": "https://thedragontron.meme/wp-content/uploads/2024/08/DragonTronLogo.png",
+    "logoURI": "https://thedragontron.meme/wp-content/uploads/2024/10/DGTronLogo_Main-1.png",
     "homepage": "https://thedragontron.meme/",
     "existingMarkets": [
         {
             "source": "SunSwap",
             "pairs": [
-                "DGTRON/WTRX"
+                "DGTRON/WTRX",
+                "DGTRON/USDT"
             ]
         },
         {
              "source": "Just.Money",
              "pairs": [
+                 "DGTRON/WTRX",
                  "DGTRON/USDT"
             ]
         },
