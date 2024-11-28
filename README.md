@@ -6,7 +6,7 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+      "address": "TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n",
       "symbol": "WIN",
       "name": "WINkLink",
       "decimals": 6,
@@ -16,7 +16,7 @@ Follow the steps below to add a new token：
       "existingMarkets": [
           {
               "source": "Binance",
-              "pairs": [
+              "pairs": TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n[
                   "WIN/USDT",
                   "WIN/BUSD",
                   "WIN/BNB",
@@ -25,7 +25,7 @@ Follow the steps below to add a new token：
           },
           {
               "source": "Poloniex",
-              "pairs": [
+              "pairs": TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n[
                   "WIN/USDT"
               ]
           },
@@ -38,12 +38,12 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `address`[Required]: your token address.
-* `symbol`[Required]: your token symbol.
-* `name`[Required]: your token name.
-* `logoURI`[Required]: the logo URI of your token.
-* `homepage`[Required]: the home page of your token.
-* `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
+*TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n `address`[Required]: your token address.
+* TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n`symbol`[Required]: your token symbol.
+* TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n`name`[Required]: your token name.
+*TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n `logoURI`[Required]: the logo URI of your token.
+*TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n `homepage`[Required]: the home page of your token.
+*TEcoLvNeLPcW56u3ZPXZKrLHEr7LckyZ6n `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
 3) Submit PR with the changed JSON file.
 
