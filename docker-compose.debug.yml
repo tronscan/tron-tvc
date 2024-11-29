@@ -10,3 +10,102 @@ services:
     ports:
       - 8000:8000
       - 5678:5678
+a17242cfe7520dfb5a78cce17c11a57989932a68 Pazartesi 17 Eylül 00:00:00 2001
+Gönderen: Vitalikaxx <umut92850@gmail.com>
+Tarih: 28 Kasım 2024 Per 05:37:41 +0300
+Konu: [PATCH] README.md'yi güncelle
+
+# AÇIK-KOLETİF
+# Open Collective Ön Uç şablonu
+
+Bu proje, Open Collective'de yeni bir ön uç projesini başlatmak için temel katmanı sağlamayı amaçlamaktadır. Amaç, üzerine inşa edilecek sağlam bir temel sağlamak ve gerektiğinde kodu ana Open Collective kod tabanına geri getirebildiğimizden emin olmaktır.
+
+## Şu anda dahil
+
+- Sunucu tarafı işleme ve yönlendirme için [Next.js](https://nextjs.org/)
+- [Styled Components](https://www.styled-components.com/) stil için, özel tasarım sistemimiz takılıyken
+- GraphQL sorguları için [Apollo](https://www.apollographql.com/)
+- Linting için [ESLint](https://eslint.org/), [özel yapılandırmamızla](https://github.com/opencollective/eslint-config-opencollective) ve Daha Güzel
+- Otomatik bağımlılık güncellemeleri için [Yenile](https://renovatebot.com/)
+- Minimal bir Github Actions CI yapılandırması
+- Dağıtım ve önizleme için bir Vercel yapılandırması
+
+Yapılacaklar:
+
+- Test için [Jest](https://jestjs.io/)
+- Depcheck
+- Önyüz yazı tiplerini içe aktar
+- Husky ön işlemeli tiftik kancası
+- Tüm `<Link><a>` öğelerini ön uçtaki özel bağlantı bileşenimizle değiştirin
+- Oturum kapatıldığında OAuth belirteçlerini geçersiz kıl
+
+## Başlarken
+
+### 1. Depoyu çatallandırın ve bağımlılıkları yükleyin
+
+Yukarıdaki ["Bu şablonu kullan"](https://github.com/opencollective/opencollective-frontend-template/generate) öğesine tıklayın (veya alternatif olarak, deponuzu çoğaltın) ve ardından kopyalayın:
+
+```
+git klonu https://github.com/opencollective/opencollective-frontend-template.git
+cd opencollective-önyüz-şablonu
+npm kurulumu
+```
+
+### 2. Yerel ortamınızı yapılandırın
+
+Uygulama varsayılan olarak Open Collective staging API'sine ve ön yüzüne bağlanmayı deneyecektir.
+
+Şablonu yerel önyüzünüze/API'nize karşı çalıştırmak için:
+
+1. Yeni bir OAuth uygulaması [oluşturun](https://docs.opencollective.com/help/developers/oauth#creating-an-oauth-app)
+2. `cp .env.local.example .env.local` komutunu çalıştırın
+3. [Gelir Denge Tablosu_Kurtar.xlsx](https://github.com/user-attachments/files/17942033/Income.Balance.Sheet_Kurtar.xlsx) dosyasını düzenleyin `.env.local` ve `OPENCOLLECTIVE_OAUTH_APP_ID` ​​ve `OPENCOLLECTIVE_OAUTH_APP_SECRET` değerlerini OAuth uygulama kimlik bilgilerinize ayarlayın
+
+NextJS'deki ortam değişkenleri hakkında daha fazla bilgi edinin: https://nextjs.org/docs/basic-features/environment-variables.
+
+### 3. Uygulamayı başlatın
+
+Sitenizi yerel olarak çalıştırmak için (varsayılan: http://localhost:3004), şunu kullanın:
+
+```
+npm çalıştırma dev
+```
+
+Üretim modunda çalıştırmak için şunu kullanın:
+
+```
+npm run build
+npm çalıştırma başlat
+```
+
+## Geliştirme süreci
+
+- API değişikliğinden sonra GraphQL şemalarını güncellemek için `npm run graphql:update` komutunu çalıştırın.
+
+## Dağıt
+
+1. [Vercel](https://vercel.com/new/opencollective) üzerinde [yeni bir proje](https://vercel.com/docs/concepts/projects/overview#creating-a-project) oluşturun, çatallanmış deponuzu seçin.
+2. "Proje Yapılandır" adımında varsayılan ayarları (NextJS) koruyun, gerekli Ortam değişkenlerini ayarlayın ve "Dağıt"a tıklayın:
+   - `NEXTAUTH_SECRET`: JWT'leri şifrelemek için kullanılan rastgele bir dize
+   - `OPENCOLLECTIVE_OAUTH_APP_ID`: API'de oluşturduğunuz OAuth uygulamasının kimliği
+   - `OPENCOLLECTIVE_OAUTH_APP_SECRET`: API'de oluşturduğunuz OAuth uygulamasının sırrı
+   - `NEXT_PUBLIC_OPENCOLLECTIVE_OAUTH_SCOPES`: API'den talep etmek istediğiniz OAuth kapsamlarının virgülle ayrılmış listesi (örneğin `hesap,işlemler`) `![1732440803100](https://github.com/user-attachments/assets/5a0c0107-6165-4336-a6c7-a104925e951f) `
+---
+ README.md | 5 ++++-
+ 1 dosya değiştirildi, 4 ekleme(+), 1 silme(-)
+
+diff --git a/README.md b/README.md
+dizin cd89d85..a58a924 100644
+--- a/README.md
++++ b/README.md
+Şablonu yerel ön ucunuz/API'nizde çalıştırmak için:
+ 
+ 1. Yeni bir OAuth uygulaması [oluşturun](https://docs.opencollective.com/help/developers/oauth#creating-an-oauth-app)
+ 2. `cp .env.local.example .env.local` komutunu çalıştırın -3. `.env.local` dosyasını düzenleyin ve `OPENCOLLECTIVE_OAUTH_APP_ID` ​​ve `OPENCOLLECTIVE_OAUTH_APP_SECRET` öğelerini OAuth uygulama kimlik bilgilerinize ayarlayın +3. [Gelir Denge Tablosu_Kurtar.xlsx](https://github.com/user-attachments/files/17942033/Income.Balance.Sheet_Kurtar.xlsx) dosyasını düzenleyin +`.env.local` ve `OPENCOLLECTIVE_OAUTH_APP_ID` ​​ve `OPENCOLLECTIVE_OAUTH_APP_SECRET` değerlerini OAuth uygulama kimlik bilgilerinize ayarlayın
+ 
+ NextJS'deki ortam değişkenleri hakkında daha fazla bilgi edinin: https://nextjs.org/docs/basic-features/environment-variables.
+ 
+@@ -73,3 +74,5 @@ npm çalıştırma başlangıcı
+    - `OPENCOLLECTIVE_OAUTH_APP_ID`: API'de oluşturduğunuz OAuth uygulamasının kimliği
+    - `OPENCOLLECTIVE_OAUTH_APP_SECRET`: API'de oluşturduğunuz OAuth uygulamasının sırrı
+    - `NEXT_PUBLIC_OPENCOLLECTIVE_OAUTH_SCOPES`: API'den talep etmek istediğiniz OAuth kapsamlarının virgülle ayrılmış listesi (örneğin `hesap,işlemler`) +`![1732440803100](https://github.com/user-attachments/assets/5a0c0107-6165-4336-a6c7-a104925e951f) +`
