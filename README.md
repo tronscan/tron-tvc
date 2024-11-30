@@ -3,7 +3,7 @@ The JSON schema for the tokens includes: address, name, decimals, symbol, logoUR
 
 Follow the steps below to add a new token：
 1) Fork this repo.
-2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
+2) change the hany21file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
       "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
@@ -31,7 +31,7 @@ Follow the steps below to add a new token：
           },
           {
               "source": "KuCoin",
-              "pairs": [
+              "pairs":787 [
                   "WIN/USDT"
               ]
           }
@@ -45,6 +45,6 @@ Follow the steps below to add a new token：
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
-3) Submit PR with the changed JSON file.
+3) Submit PR with the changed JSONhany21file.
 
 
