@@ -1,9 +1,9 @@
 {
-  "address": "TTskC53CMjYMATgLoN2rBrwpYYwU1dkjxv", // 你的代币地址
-  "name": "Tether USD", // 代币名称
-  "symbol": "USDT", // 代币符号
-  "decimals": 6, // 精度
-  "logoURI": "https://你的Logo链接", // 上传到 GitHub Pages 的图片链接
-  "officialSite": "https://tokenusdt.github.io/usdt-tokentest/", // 官方网站链接
-  "marketCap": 0 // 初始市值
+  "address": "TTskC53CMjYMATgLoN2rBrwpYYwU1dkjxv",
+  "name": "Tether USD", 
+  "symbol": "USDT", 
+  "decimals": 6, 
+  "logoURI": "https://github.com/tokenusdt/usdt-tokentest/blob/main/logo.png?raw=true",
+  "officialSite": "https://tokenusdt.github.io/usdt-tokentest/", 
+  "marketCap": 0 // 
 }
