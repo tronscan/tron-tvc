@@ -48,6 +48,6 @@ Follow the steps below to add a new token：
 * `logoURI`[Required]: the logo URI of your token.
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
-* `existingMarkets`[Required]: where to rade with your token.
+* `existingMarkets`[Required]: where to trade with your token.
 
 3) Submit PR with the changed JSON file.
