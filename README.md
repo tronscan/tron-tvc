@@ -6,12 +6,12 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-      "symbol": "WIN",
-      "name": "WINkLink",
-      "decimals": 6,
-      "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
-      "homepage": "https://winklink.org/",
+      "address": "TSqvYe5R9x2bg6fyKvE2WVuU9KTF9UuDqs",
+      "symbol": "BRT",
+      "name": "Bluerock token",
+      "decimals": 18,
+      "logoURI": "https://static.wixstatic.com/media/9f2991_1dba4cbef42243de812abe9505146357~mv2.jpeg",
+      "homepage": "https://www.bluerocks.net/",
       "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
       "existingMarkets": [
           {
