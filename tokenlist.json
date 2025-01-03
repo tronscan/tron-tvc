@@ -1,16 +1,16 @@
 {
-    "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
-    "symbol": "Huobi 2nd Space",
-    "name": "Huobi 2nd Space Club",
-    "decimals": 6,
-    "logoURI": "https://hbg-prod-fed-public.hbfile.net/nuwa/static/prod/56020150-434a-46af-9eaa-fe1ed404c12b.gif",
-    "homepage": "https://www.huobi.com/",
+    "address": "TL3L37aFZVyuVrG9jt9eivLUanbeQufEfW",
+    "symbol": "2025",
+    "name": "2025",
+    "decimals": 18,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/tron/tl3l37afzvyuvrg9jt9eivluanbequfefw.png?size=lg&key=d2e3d9",
+    "homepage": "https://yeartoken2025.com/",
     "existingMarkets": [
         {
-            "source": "ApeNFT",
+            "source": "Sunswap",
             "pairs": [
-                "Huobi 2nd Space/USDT",
-                "Huobi 2nd Space/TRX"
+                "2025/TRX",
+               
             ]
         }
   ]
