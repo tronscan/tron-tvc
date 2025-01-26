@@ -45,6 +45,4 @@ Follow the steps below to add a new token：
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
-3) Submit PR with the changed JSON file.
-
-
+3) Submit PR with the changed JSON file. Please include the `tokenlist.json` file in the PR. DON'T modify any other token on the list.
