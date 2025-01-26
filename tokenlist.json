@@ -13,5 +13,37 @@
                 "Huobi 2nd Space/TRX"
             ]
         }
-  ]
+    ]
+},
+{
+    "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+    "homepage": "https://tether.to/",
+    "MarketCapLink": "https://coinmarketcap.com/currencies/tether/",
+    "existingMarkets": [
+        {
+            "source": "Binance",
+            "pairs": [
+                "USDT/USDT",
+                "USDT/BUSD",
+                "USDT/BNB",
+                "USDT/USDC"
+            ]
+        },
+        {
+            "source": "Poloniex",
+            "pairs": [
+                "USDT/USDT"
+            ]
+        },
+        {
+            "source": "KuCoin",
+            "pairs": [
+                "USDT/USDT"
+            ]
+        }
+    ]
 }
