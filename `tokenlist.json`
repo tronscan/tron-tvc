@@ -38,13 +38,15 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `address`[Required]: your token address.
-* `symbol`[Required]: your token symbol.
-* `name`[Required]: your token name.
-* `logoURI`[Required]: the logo URI of your token.
-* `homepage`[Required]: the home page of your token.
+* `address`TFrRVZFoHty7scd2a1q6BDxPU5fyqiB4iR
+* `symbol`WIN
+* `name`mine
+* `logoURI`https://tronscan.org/#/address/TFrRVZFoHty7scd2a1q6BDxPU5fyqiB4iR
+* `homepage`bitget
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
-* `existingMarkets`[Required]: where to trade with your token.
+* `existingMarkets`tronscan.org
+      
 3) Submit PR with the changed JSON file.
+      
 
 
