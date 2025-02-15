@@ -13,5 +13,23 @@
                 "Huobi 2nd Space/TRX"
             ]
         }
-  ]
+    ]
+},
+{
+    "address": "TC6QxCKCeeTzYaM7kUWf38j17ceqRwCD6m",
+    "symbol": "ExampleToken",
+    "name": "Example Token",
+    "decimals": 18,
+    "logoURI": "https://example.com/logo.png",
+    "homepage": "https://example.com",
+    "MarketCapLink": "https://coinmarketcap.com/currencies/example-token/",
+    "existingMarkets": [
+        {
+            "source": "ExampleExchange",
+            "pairs": [
+                "ExampleToken/USDT",
+                "ExampleToken/BTC"
+            ]
+        }
+    ]
 }
