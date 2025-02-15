@@ -1,5 +1,5 @@
 # Adding new token
-The JSON schema for the tokens includes: address, name, decimals, symbol, logoURI, official homepage, MarketCap link, existing Markets.
+The JSON schema for the tokens includes: address, name, decimals, symbol, logoURI, official homepage, MarketCap link, existing Markets, description, whitepaper, socialMedia.
 
 Follow the steps below to add a new token：
 1) Fork this repo.
@@ -45,6 +45,9 @@ Follow the steps below to add a new token：
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
+* `description`[Optional]: a brief overview of your token.
+* `whitepaper`[Optional]: a link to your token's whitepaper.
+* `socialMedia`[Optional]: official social media accounts related to your token.
 3) Submit PR with the changed JSON file.
 
 # Payout Information

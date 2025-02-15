@@ -13,6 +13,9 @@ At minimum each entry should have
 - Link to the official homepage of token:
 - MarketCap Link if available (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN):
 - Existing Markets (where to trade): 
+- Description:
+- Whitepaper:
+- Social Media:
 
 ## **Payout Information**
 
