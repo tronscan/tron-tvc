@@ -19,3 +19,4 @@ At minimum each entry should have
 To receive payouts for your token, please provide the following information:
 
 - Payout Address:
+TNjDLQtZM7RzScJ6e7rZfxRNy4NgUeKMiw
