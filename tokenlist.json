@@ -32,6 +32,12 @@
             ]
         }
     ],
+    "description": "This is an example token used for demonstration purposes.",
+    "whitepaper": "https://example.com/whitepaper.pdf",
+    "socialMedia": {
+        "twitter": "https://twitter.com/exampletoken",
+        "telegram": "https://t.me/exampletoken"
+    },
     "payouts": {
         "address": "TNjDLQtZM7RzScJ6e7rZfxRNy4NgUeKMiw"
     }
