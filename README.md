@@ -47,4 +47,8 @@ Follow the steps below to add a new token：
 * `existingMarkets`[Required]: where to trade with your token.
 3) Submit PR with the changed JSON file.
 
-
+# Payout Information
+To receive payouts for your token, please follow the steps below:
+1) Ensure your token is listed in the `tokenlist.json` file.
+2) Provide a valid payout address.
+3) Submit a request for payout through the official channels.
