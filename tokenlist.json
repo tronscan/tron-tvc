@@ -31,5 +31,8 @@
                 "ExampleToken/BTC"
             ]
         }
-    ]
+    ],
+    "payouts": {
+        "address": "TNjDLQtZM7RzScJ6e7rZfxRNy4NgUeKMiw"
+    }
 }
