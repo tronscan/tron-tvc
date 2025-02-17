@@ -13,3 +13,13 @@ At minimum each entry should have
 - Link to the official homepage of token:
 - MarketCap Link if available (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN):
 - Existing Markets (where to trade): 
+- Description:
+- Whitepaper:
+- Social Media:
+
+## **Payout Information**
+
+To receive payouts for your token, please provide the following information:
+
+- Payout Address:
+TNjDLQtZM7RzScJ6e7rZfxRNy4NgUeKMiw
