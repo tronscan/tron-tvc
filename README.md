@@ -47,4 +47,19 @@ Follow the steps below to add a new token：
 * `existingMarkets`[Required]: where to trade with your token.
 3) Submit PR with the changed JSON file.
 
+# Token Transfers
+This repository does not support transferring tokens from a CoinGecko portfolio to a personal wallet.
 
+## How to Transfer Tokens Using a Supported Wallet App
+To transfer tokens from CoinGecko to your wallet, use a supported wallet app like Trust Wallet or MetaMask. Follow the steps below:
+
+### Exporting Tokens from CoinGecko
+1. Open your CoinGecko portfolio.
+2. Select the tokens you want to transfer.
+3. Click on the export option and save the token details.
+
+### Importing Tokens into a Supported Wallet App
+1. Open your supported wallet app (e.g., Trust Wallet or MetaMask).
+2. Navigate to the import tokens section.
+3. Enter the token details exported from CoinGecko.
+4. Confirm the import and complete the transfer process.
