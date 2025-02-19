@@ -13,3 +13,6 @@ At minimum each entry should have
 - Link to the official homepage of token:
 - MarketCap Link if available (https://coinmarketcap.com/currencies/#TOKEN or https://www.coingecko.com/en/coins/#TOKEN):
 - Existing Markets (where to trade): 
+
+## Note on Token Transfers
+Token transfers are not supported directly from CoinGecko portfolios. To transfer tokens to your personal wallet, use a supported wallet app like Trust Wallet or MetaMask.
