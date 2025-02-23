@@ -13,5 +13,21 @@
                 "Huobi 2nd Space/TRX"
             ]
         }
-  ]
+    ]
+},
+{
+    "address": "0x31d3243CfB54B34Fc9C73e1CB1137124bD6B13E1",
+    "symbol": "ETHkey",
+    "name": "ETHkey-Paytr-Protocol",
+    "decimals": 18,
+    "logoURI": "https://example.com/logo.png",
+    "homepage": "https://example.com",
+    "existingMarkets": [
+        {
+            "source": "Uniswap",
+            "pairs": [
+                "ETHkey/ETH"
+            ]
+        }
+    ]
 }
